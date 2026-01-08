@@ -39,7 +39,7 @@ nav {
 /* Hero */
 
 
-.hero { padding: 15vh 10%;}
+.hero { padding: 15vh 10%; background-image: url('coverimage.PNG')}
 .typewriter { font-family: 'Fira Code', monospace; color: var(--blue); margin-bottom: 1rem; display: block; }
 h1 { font-size: 4.5rem; line-height: 1.1; letter-spacing: -2px; margin-bottom: 1.5rem; }
 .hero p { font-size: 1.25rem; color: var(--gray-medium); max-width: 600px; margin-bottom: 2rem; }
@@ -315,4 +315,5 @@ button:hover { background-color: #357abd; }
 
 .nav-btn {
     display: none;
+
 }

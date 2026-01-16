@@ -40,8 +40,23 @@ nav {
 
 
 .hero { 
-    padding: 15vh 10%;
+    padding: 15vh 10%;}
+
+/*two column*/
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
 }
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
 .typewriter { font-family: 'Fira Code', monospace; color: var(--blue); margin-bottom: 1rem; display: block; }
 h1 { font-size: 4.5rem; line-height: 1.1; letter-spacing: -2px; margin-bottom: 1.5rem; }
 .hero p { font-size: 1.25rem; color: var(--gray-medium); max-width: 600px; margin-bottom: 2rem; }
@@ -319,6 +334,7 @@ button:hover { background-color: #357abd; }
     display: none;
 
 }
+
 
 
 

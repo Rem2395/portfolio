@@ -39,7 +39,19 @@ nav {
 /* Hero */
 
 
-.hero { padding: 15vh 10%; background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('coverimage.PNG');}
+.hero { 
+    padding: 15vh 10%; 
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('coverimage.PNG');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
 .typewriter { font-family: 'Fira Code', monospace; color: var(--blue); margin-bottom: 1rem; display: block; }
 h1 { font-size: 4.5rem; line-height: 1.1; letter-spacing: -2px; margin-bottom: 1.5rem; }
 .hero p { font-size: 1.25rem; color: var(--gray-medium); max-width: 600px; margin-bottom: 2rem; }
@@ -317,4 +329,5 @@ button:hover { background-color: #357abd; }
     display: none;
 
 }
+
 

@@ -46,9 +46,15 @@ nav {
 
 .column {
   float: left;
-  width: 50%;
+  width: 65%;
   padding: 10px;
-  height: 300px;
+
+}
+.column2 {
+  float: left;
+  width: 35%;
+  padding: 10px;
+
 }
 .row:after {
   content: "";
@@ -334,6 +340,7 @@ button:hover { background-color: #357abd; }
     display: none;
 
 }
+
 
 
 
